@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blackjack</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('bj.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+    h1 {
+      font-size: 4rem;
+      margin-bottom: 0.2rem;
+      color: white;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-top: 0;
+      margin-bottom: 2rem;
+      font-weight: normal;
+      color: white;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin-bottom: 2rem;
+      font-size: 1.3rem;
+      text-align: center;
+      color: white
+    }
+    ul li {
+      margin-bottom: 0.5rem;
+      color: white
+    }
+    .instructions {
+      max-width: 600px;
+      text-align: left;
+      margin-bottom: 2rem;
+      line-height: 1.6;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 1rem 1.5rem;
+      border-radius: 8px;
+      color: black;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+    button {
+      background-color: black;
+      color: white;
+      border: 2px solid white;
+      padding: 1rem 2rem;
+      font-size: 1.2rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #333;
+    }
+    .header-box {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: fit-content;
+}
+
+.header-box h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.header-box h2 {
+  font-size: 1.5em;
+  margin: 5px 0 0 0;
+}
+
+  </style>
+</head>
+<body>
+  <div class="header-box">
+  <h1>BLACKJACK</h1>
+  <h2>SPPS Assignment 3</h2>
+</div>
+  <ul>
+    <li>Ananya Marmamula (1602-24-737-132)</li>
+    <li>Lasya Nekkanti (1602-24-737-147)</li>
+  </ul>
+  <div class="instructions">
+    <h3>Instructions:</h3>
+    <p>
+      Blackjack is a card game where the goal is to have your cards total as close to 21 as possible without going over.
+      <br><br>
+      - Each player is dealt two cards initially.<br>
+      - Number cards are worth their face value; face cards are worth 10; Aces can be 1 or 11.<br>
+      - Players can enter "y" (draw another card) or "n" (keep their total).<br>
+      - If your total goes over 21, you lose.<br>
+      - After the player finishes, the dealer reveals their cards and hits until they reach at least 17.<br>
+      - The highest total not exceeding 21 wins.
+    </p>
+  </div>
+  <a href="https://replit.com/@ananyamar/blackjackgame" target="_blank">
+  <button>Start</button>
+  </a>
+</body>
+</html>
